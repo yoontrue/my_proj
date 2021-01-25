@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class ManageSL {
 	static Scanner scan = new Scanner(System.in);
-//	static ArrayList<StudentLecture> student = new ArrayList<StudentLecture>();
 	static int menuNum;
 	static int no;
 	
@@ -15,7 +14,7 @@ public class ManageSL {
 		}catch (Exception e) {
 			System.out.println("정수만 입력 가능합니다!");
 			scan.nextLine();
-			menu();		// 재귀호출(자기 자신을 다시 호출)
+			menu();	
 		}
 		return no;
 	}
